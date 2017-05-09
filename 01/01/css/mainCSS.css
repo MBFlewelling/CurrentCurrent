@@ -1,0 +1,574 @@
+body {
+    /*font-family: "Helvetica Neue", Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    /*    background-color: yellow;*/
+}
+
+#mainNav {
+    width: 560px;
+    height: 40px;
+    position: relative;
+    float: none;
+    /*margin: 0 auto;*/
+    color: #ffffff;
+    background-color: #26A9E0;
+    text-align: center;
+    margin-left: calc((100% - 560px) / 2) !important;
+}
+
+#mainNav li {
+    display: block;
+    width: auto;
+    position: relative;
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    /*background-color: pink;*/
+}
+
+#mainNav li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border-bottom: solid 4px #ffffff;*/
+}
+
+#mainNav li a:hover {
+    /*border-bottom: solid 4px #ffffff;*/
+    padding-bottom: 15px;
+}
+
+#map {
+    display: block;
+    width: 40vw;
+    height: 52vh;
+    position: relative;
+    float: left;
+    margin-top: 285px;
+    margin-left: 190px;
+    z-index: 0;
+    /*background-color: orange;*/
+}
+
+#addressInputContainer {
+    display: block;
+    width: 450px;
+    height: 70px;
+    margin-top: 16px;
+    margin-left: -375px;
+}
+
+#selectedHomeAddressInputContainer {
+    display: block;
+    width: 450px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+
+#addressForm {
+    width: 370px;
+    height: 80px;
+    position: relative;
+    margin-left: -375px;
+    top: 35px;
+    z-index: 0;
+}
+
+#addressFormPoolPump {
+    width: 370px;
+    height: 80px;
+    position: relative;
+    margin-left: -375px;
+    top: 10px;
+    z-index: 0;
+}
+
+#formHeader {
+    width: 100%;
+    position: relative;
+    top: 190px;
+    /*text-align: center;*/
+    margin-left: calc((100% - 71.6%)/2);
+    font-size: 52px;
+    color: #ffffff;
+    text-shadow: 0px 3px 8px rgba(0,0,0, .8);
+    z-index: 100;
+    /*background-color: yellow;*/
+}
+
+#address, #address2 {
+    max-width: 500px !important;
+    width: 260px;
+    height: 3em;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    /*margin-left: 150px;*/
+    padding-left: 10px;
+    margin-top: 24px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.6);
+    border: none;
+    text-align: center;
+}
+
+#sampleCalculator {
+    max-width: 500px !important;
+    width: 260px;
+    height: 3em;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    /*margin-left: 150px;*/
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #444444;
+    margin-top: 24px;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.6);
+    border: none;
+    background-color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#or {
+    display: block;
+    width: 260px;
+    height: 1em;
+    position: relative;
+    float: left;
+    color: #ffffff;
+    font-size: 2em;
+    text-align: center;
+    /*margin-left: 150px;*/
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #444444;
+}
+
+#submitButton, #sampleCalculatorButton, #submitButton2 {
+    width: 100px;
+    height: 3em;
+    font-size: 14px;
+    position: relative;
+    float: left;
+    background-color: #26A9E0;
+    color: #ffffff;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0, 0.6);
+    margin-top: 24px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+#submitButton2 {
+    margin-top: 80px !important;
+}
+
+#sampleCalculatorButton {
+    text-align: center;
+    padding-top: 11px;
+    text-decoration: none;
+}
+
+#sampleCalculatorButton:hover {
+    background-color: #042F5A;
+}
+
+#submitButton:hover {
+    background-color: #042F5A;
+}
+
+.idleField {
+    color: #888888;
+    border: 1px solid #888888;
+}
+
+.focus {
+    color: #444444;
+    border: 1px solid #444444;
+    /*background-color: #ffeeaa;*/
+}
+
+#techButtonField {
+    width: 540px;
+    height: 120px;
+    position: relative;
+    top: 210px;
+    margin-left: 17%;
+    /*margin-left: 485px;*/
+    -ms-transform: scale(1.25, 1.25);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+    /*background-color: rgba(255,255,255,0.8);*/
+    z-index: 0;
+}
+
+#techButtonField2 {
+    width: 540px;
+    height: 120px;
+    position: relative;
+    top: 20px;
+    margin-left: calc((100% - 540px)/2);
+    -ms-transform: scale(1.25, 1.25);
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+    z-index: 0;
+}
+
+#techButtonField ul, #techButtonField2 ul {
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    /*margin-left: calc(50% - 875px/2);*/
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#techButtonField ul li, #techButtonField2 ul li {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    float: left;
+    /*margin-left: 0px;*/
+    /*margin-right: 0px;*/
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#techButtonField ul a li span {
+    color: #ffffff;
+}
+
+#techButtonField2 ul a li span {
+    color: #444444;
+}
+
+#techButtonField ul a:hover li span, #techButtonField2 ul a:hover li span {
+    color: #888888;
+}
+
+[title~=efficiency] {
+    background-image: url("http://www.currentcurrent.com/images/lightBulb_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    /*margin-left: -100px !important;*/
+}
+
+[title~=efficiency]:hover {
+    background-image: url("http://www.currentcurrent.com/images/lightBulb_over.png");
+    color: #888888;
+}
+
+[title~=efficiency] span {
+    width: 100px;
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=efficiencyIcon] {
+    background-image: url("http://www.currentcurrent.com/images/lightBulb_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    margin-left: 0px !important;
+}
+
+[title~=power] {
+    background-image: url("http://www.currentcurrent.com/images/solarPower_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+}
+
+[title~=power]:hover {
+    background-image: url("http://www.currentcurrent.com/images/solarPower_over.png");
+    color: #888888;
+}
+
+[title~=power] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=powerIcon] {
+    background-image: url("http://www.currentcurrent.com/images/solarPower_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    margin-left: 0px !important;
+}
+
+[title~=thermal] {
+    background-image: url("http://www.currentcurrent.com/images/solarThermal_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+}
+
+[title~=thermal]:hover {
+    background-image: url("http://www.currentcurrent.com/images/solarThermal_over.png");
+    color: #888888;
+}
+
+[title~=thermal] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=thermalIcon] {
+    background-image: url("http://www.currentcurrent.com/images/solarThermal_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    margin-left: 0px !important;
+}
+
+[title~=smartHome] {
+    background-image: url("http://www.currentcurrent.com/images/smartHome_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 14px;
+    margin-left: 0px !important;
+}
+
+[title~=smartHome]:hover {
+    background-image: url("http://www.currentcurrent.com/images/smartHome_over.png");
+    color: #888888;
+}
+
+[title~=smartHome] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=water] {
+    background-image: url("http://www.currentcurrent.com/images/water_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    /*opacity: 0.25;*/
+}
+
+[title~=water]:hover {
+    background-image: url("http://www.currentcurrent.com/images/water_over.png");
+    color: #888888;
+}
+
+[title~=water] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=waterIcon] {
+    background-image: url("http://www.currentcurrent.com/images/water_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    margin-left: 0px !important;
+}
+
+[title~=cell] {
+    background-image: url("http://www.currentcurrent.com/images/fuelCell_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+    /*opacity: 0.25;*/
+}
+
+[title~=cell]:hover {
+    background-image: url("http://www.currentcurrent.com/images/fuelCell_over.png");
+    color: #888888;
+}
+
+[title~=cell] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+[title~=car] {
+    background-image: url("http://www.currentcurrent.com/images/eCar_normal.png");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position-x: 12px;
+}
+
+[title~=car]:hover {
+    background-image: url("http://www.currentcurrent.com/images/eCar_over.png");
+    color: #888888;
+}
+
+[title~=car] span {
+    position: relative;
+    top: 80px;
+    /*left: -7px;*/
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    position: static;
+    bottom: 0px;
+    /*float: left;*/
+    /*margin-top: 10px;*/
+    font-size: 12px;
+    background-color: #26A9E0;
+}
+
+/*footer#genericFooter {
+    width: 100%;
+    height: 30px;
+    position: relative;
+
+    font-size: 12px;
+    background-color: #26A9E0;
+}*/
+
+footer ul {
+    width: 710px;
+    height: 20px;
+    /*margin-top: 0px;*/
+    margin-left: calc((100% - 710px)/2);
+    padding-top: 10px;
+    /*background-color: yellow;*/
+}
+
+footer ul li {
+    /*width: auto;
+    height: 30px;
+
+    left: 100px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    float: left;
+    list-style: none;
+    color: #ffffff;
+}
+
+.marginUp5 {
+    margin-top: -7px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #ffffff;
+}
+
+#instructions {
+    display: none;
+    width: 740px;
+    height: 150px;
+    position: absolute;
+    margin-left: calc(50% - 740px/2);
+    top: 750px;
+}
+
+#instructions ul li {
+    width: 150px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    background-image: url("http://www.currentcurrent.com/images/CCSymbol.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: 50px 10px;
+    text-align: center;
+    list-style: none;
+    padding-top: 70px;
+}
+
+#step1, #step2, #step3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+[title~=step1] {
+    margin-left: 0px !important;
+}
+
+#landingPage {
+    width: 792px;
+    height: 561px;
+    margin-top: -30px;
+    margin-left: calc((100% - 792px)/2);
+}
+
+#landingPage h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#landingPage h4 {
+    text-align: center;
+}
+
+#landingPageImage {
+    width: 65%;
+    margin-left: calc((100% - 65%)/2);
+}
+
+#landingCCLogo {
+    width: 40%;
+    margin-left: calc((100% - 40%)/2);
+}
+
+#landingPage ul {
+    width: 43%;
+    padding: 0;
+    margin-left: calc((100% - 43%)/2);
+}
+
+#landingPage ul li {
+    list-style: disc;
+}
+
+.bolderText {
+    font-weight: 700;
+}
+
+#moreInfoButton {
+    display: block;
+    width: 150px;
+    height: 3em;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -50px;
+    left: calc((100% - 130px)/2);
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #26A9E0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#moreInfoButton:hover {
+    background-color: #042F5A;
+}

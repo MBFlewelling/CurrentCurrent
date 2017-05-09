@@ -1,0 +1,89 @@
+#LocateButton {
+    position: absolute;
+    top: 88px;
+    left: 35px;
+    z-index: 50;
+    border: 1px solid #57585A;
+    display: block;
+    width: 31px;
+    height: 31px;
+
+    /*background-image: url(../img/locate.png);*/
+    /*background-size: 26px, 26px;*/
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+#locateImg {
+    display: block;
+    margin: auto;
+    padding: 1px;
+
+    background-color: #042F5A;
+    position: absolute;
+    top: 88px;
+    left: 35px;
+    z-index: 50;
+    border: 1px solid #57585A;
+
+    width: 31px;
+    height: 31px;
+
+    /*background-image: url(../img/locate.png);*/
+    /*background-size: 26px, 26px;*/
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.arcgisSearch .searchInputGroup {
+    border: none;
+
+}
+.arcgisSearch .searchBtn {
+    width: 88px;
+    height: 41px;
+    padding-top: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    box-shadow: 0px 2px 5px rgba(0,0,0, 0.6);
+    border: none;
+    background-color: #2fa4e7;
+}
+
+
+
+.arcgisSearch .searchGroup{
+
+}
+.arcgisSearch .searchBtn:hover, .arcgisSearch .searchBtn:focus {
+    background-color: #042F5A;
+}
+
+#address{
+    width: 400px;
+    box-shadow: none;
+
+}
+.arcgisSearch .searchBtn
+.arcgisSearch .searchGroup .searchInput{
+    border: none;
+    text-align: center;
+    box-shadow: -1px 2px 5px rgba(0,0,0, 0.6);
+    padding: 0px;
+
+}
+.arcgisSearch .searchGroup .searchInput{
+    height: 41px;
+    padding: 0;
+    text-align: center;
+    box-shadow: -1px 2px 5px rgba(0,0,0, 0.6);
+    border: none;
+}
+
+
+
+.arcgisSearch .searchBtn{
+    padding: 0;
+}
