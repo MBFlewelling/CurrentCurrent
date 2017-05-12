@@ -68,8 +68,8 @@ require(["esri/map", "esri/dijit/LocateButton","esri/layers/ArcGISDynamicMapServ
         mapInfo['zoom'] = map.getZoom();
         console.log(mapInfo)
         localStorage.mapInfo = JSON.stringify(mapInfo);
-        console.log(serialized)
-        console.log(JSON.parse(serialized)['center'])
+        console.log(localStorage.mapInfo)
+        console.log(JSON.parse(localStorage.mapInfo)['center'])
 
     }
     map.on("extent-change",function(){
