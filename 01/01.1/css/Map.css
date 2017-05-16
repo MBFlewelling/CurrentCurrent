@@ -24,12 +24,11 @@ padding-left: calc(100vw - 100%);
 }
 #map2{
     -ms-content-zooming: none;
+    padding: 0;
 }
 
 
-/*.card{*/
-    /*display: none;*/
-/*}*/
+
 
 #mapCard{
     position: absolute;
@@ -84,12 +83,6 @@ padding-left: calc(100vw - 100%);
     left:300px;
 
 }
-
-
-
-.arcgisSearch .searchGroup{
-
-}
 .arcgisSearch .searchBtn:hover, .arcgisSearch .searchBtn:focus {
     background-color: #042F5A;
 }
@@ -97,16 +90,16 @@ padding-left: calc(100vw - 100%);
     background-color: #2fa4e7;
 }
 
+
+
+
+
 #address{
     width: 500px;
     box-shadow: none;
 
 }
-.arcgisSearch .searchBtn
-{
 
-
-}
 .arcgisSearch .searchGroup .searchInput{
     max-width: 500px;
     width: 300px;
@@ -117,23 +110,12 @@ padding-left: calc(100vw - 100%);
     margin: auto;
     border: none;
 }
-.arcgisSearch .searchGroup .searchInput
 
-
-/*.arcgisSearch .searchBtn{*/
-    /*padding-bottom: 0;*/
-    /*position: absolute;*/
-    /*left:300px;*/
-/*}*/
 .arcgisSearch .searchIcon{
     padding-bottom: 0;
+    display: none;
 }
-.esri-icon-close{
 
-}
-#map2{
-    padding: 0;
-}
 .flipToggle{
 background-color: #2fa4e7;
     display: block;
@@ -185,6 +167,10 @@ background-color: #2fa4e7;
 
 }
 
+#layerList li{
+    padding-top: 10px;
+}
+
 .layerLable{
     display: inline;
     padding: 5px;
@@ -211,19 +197,14 @@ background-color: #2fa4e7;
     padding-right: 2px;
 }
 
-.arcgisSearch .searchIcon{
-    display: none;
-}
+
+
 
 .arcgisSearch .searchButtonText{
     clip: auto;
 
     color: white;
-    height: auto;
-    width: auto;
 
-}
-.arcgisSearch .searchButtonText{
     font-weight: 300;
 
     font-family: 'Roboto', sans-serif;
@@ -239,41 +220,32 @@ background-color: #2fa4e7;
 #baseMapButton {
     display: inline;
     position: absolute;
-    width: 55px;
-    height: 35px;
-    background-size: cover;
-    /*background-image: url("mapImg/Street.jpg");*/
+    width: 90px;
+    height: 90px;
+    background-size: contain;
+    background-image: url("mapImg/Street.jpg");
     z-index: 9999999;
     cursor: pointer;
     right: 10px;
     top: 10px;
-
 }
 #baseMapImg{
-    background-size: cover;
+    background-size: contain;
     background-image: url("../mapImg/Street.jpg");
 
     width: 100%;
     height: 100%;
-    border-width: 1px 1px 0px 1px;
-    border-color: #57585A;
-    border-style: solid;
 }
 #baseMapLable{
     background-color: #26A9E0;
     color: white;
     text-align: center;
-    border-width: 0px 1px 1px 1px;
-    border-color: #57585A;
-    border-style: solid;
 }
 .layerSymbol{
     margin-right: 5px;
     margin-left: 5px;
 }
-#layerList li{
-    padding-top: 10px;
-}
+
 #layerLegend{
     position: absolute;
     bottom: 0;
